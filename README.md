@@ -1,9 +1,8 @@
-
-1.This App is created using react=native with expo.
-2.We can run this app in any device android or ios.
-3.It is mobile application.
-4.You have to add node modules using npm install,cause i didn't add that node_module folder.
-5.You have to install expo app for run on mobile device.
-6.After all this step you can run this app using "npm start" command.
-7.Scan qr code and add address details.
-8.Here we go,You can see app and add other photo from your galary, and set that on app screen.
+> Why do I have a folder named ".expo" in my project?
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+> What do the files contain?
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+> Should I commit the ".expo" folder?
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
