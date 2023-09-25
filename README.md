@@ -1,4 +1,4 @@
-# PhotoPicker
+
 1.This App is created using react=native with expo.
 2.We can run this app in any device android or ios.
 3.It is mobile application.
